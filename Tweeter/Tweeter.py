@@ -12,10 +12,10 @@ class SentimentAnalysis():
         self.tweetText = []
 
     def TWApi(self):
-        consumerKey = 'ZCvyabcAFd33QxACOPHZYpJ7g'
-        consumerSecret = 'Xmg8djNWLnqu0uZ03X19oIeU739LRM08LXIyByaHyrYhQFaizr'
-        accessToken = '143385824-3AmSnBhPbzVsrKjqJb0JXMDKQFg1OcwdpiLw3HUX'
-        accessTokenSecret = '7iTh1Tu1H8nVsdhZ7CSOTtbIEmlQF5QKhqKFdLfiHZFZe'
+        consumerKey = 'xxx'
+        consumerSecret = 'xxx'
+        accessToken = 'xx-xx'
+        accessTokenSecret = 'xx'
 
         auth = tw.OAuthHandler(consumerKey, consumerSecret)
         auth.set_access_token(accessToken, accessTokenSecret)
