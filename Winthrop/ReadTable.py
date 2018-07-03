@@ -10,7 +10,6 @@ __author__ = "Mithun.Balegadde"
 
 """ Read table from MSSQL and ingest into hive table"""
 
-
 """ Spark Configurations for setup application name,
  Set master,ui port and spark scheduler """
 conf = SparkConf().setAppName("WintropIngest") \
